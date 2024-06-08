@@ -1,0 +1,11 @@
+1. In the Code, we have the loaded data for the employees and their amount
+2.we have created the data frame by using the sparkSession
+3.we have grouped the particular column named first and summed the amount column
+4. we have taken the total_amount and created the alternative column called total_Avg
+5. we have divided the total_amount by the total_avg to find out the Opted average
+
+##########################################################
+we have implemented the opitmisation here
+By setting the Initial Number of partition to certain number
+By setting the Number of parallelism to false
+as we are willing to achieve the best in terms of partitions rather than the utilizing the cores
